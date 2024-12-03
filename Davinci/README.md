@@ -14,7 +14,7 @@ occur during the authentication process.
 
 <img src="images/davinciSequence.png" width="500">
 
-## Integrating the SDK into your project
+## Integrating the SDK into your project updates for a new release
 
 Use Cocoapods or Swift Package Manger
 
