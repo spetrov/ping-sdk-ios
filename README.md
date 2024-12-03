@@ -10,7 +10,7 @@ The `PingOidc` module follows the [OIDC](https://openid.net/specs/openid-connect
 provides a simple and easy-to-use API to interact with the OIDC server. It allows you to authenticate, retrieve the
 access token, revoke the token, and sign out from the OIDC server.
 
-## Integrating the SDK into your project
+## Integrating the SDK into your project update something
 
 Use Cocoapods or Swift Package Manger
 
