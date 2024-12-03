@@ -4,7 +4,7 @@
   </picture>
 </div>
 
-# PingStorage SDK
+# PingStorage SDK update for a new version
 
 The PingStorage SDK provides a flexible storage interface and a set of common storage solutions for the Ping SDKs.
 
