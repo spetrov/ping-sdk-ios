@@ -13,8 +13,8 @@ extensible. It provides a simple API for navigating the authentication flow and 
 occur during the authentication process.
 
 <img src="images/davinciSequence.png" width="500">
-
-## Integrating the SDK into your project updates for a new release
+    ds
+## Integrating the SDK into your project updates for a new release  fdsafa
 
 Use Cocoapods or Swift Package Manger
 
