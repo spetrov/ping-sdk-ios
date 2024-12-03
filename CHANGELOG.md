@@ -1,4 +1,8 @@
 ## [0.9.0]
+#### Updated
+- Updated storage module
+
+## [0.9.0]
 #### Added
 - Added Logger initial version
 - Added Storage initial version
