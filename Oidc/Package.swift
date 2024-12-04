@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package (
-    name: "Ping-Oidc-spetrov",
+    name: "Ping-Oidc-iOS",
     platforms: [
         .iOS(.v13)
     ],
