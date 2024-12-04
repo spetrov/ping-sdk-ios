@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package (
-    name: "Ping-Oidc-iOS",
+    name: "Ping-Oidc-spetrov",
     platforms: [
         .iOS(.v13)
     ],
@@ -10,9 +10,9 @@ let package = Package (
         .library(name: "PingOidc", targets: ["PingOidc"])
     ],
     dependencies: [
-        .package(name: "PingOrchestrate", url: "git@github.com:spetrov/ping-orchestrate-spetrov.git", .upToNextMinor(from: "1.0.0")),
+        .package(name: "PingOrchestrate", url: "https://github.com/spetrov/ping-orchestrate-spetrov", .upToNextMinor(from: "2.0.2")),
     ],
     targets: [
-        .target(name: "PingOidc", dependencies: [.product(name: "PingOrchestrate", package: "PingOrchestrate")], path: "Oidc", exclude: ["Oidc.h"], resources: [.copy("PrivacyInfo.xcprivacy")])
+        .target(name: "PingOidc", dependencies: [.product(name: "PingOrchestrate", package: "PingOrchestrate")], path: "Oidc/Oidc", exclude: ["Oidc.h"], resources: [.copy("PrivacyInfo.xcprivacy")])
     ]
 )
