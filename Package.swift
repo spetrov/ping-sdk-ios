@@ -13,6 +13,6 @@ let package = Package (
         .package(name: "PingOrchestrate", url: "https://github.com/spetrov/ping-orchestrate-spetrov", .upToNextMinor(from: "2.0.2")),
     ],
     targets: [
-        .target(name: "PingOidc", dependencies: [.product(name: "PingOrchestrate", package: "PingOrchestrate")], path: "Oidc/Oidc", exclude: ["Oidc.h"], resources: [.copy("PrivacyInfo.xcprivacy")])
+        .target(name: "PingOidc", dependencies: [.product(name: "PingOrchestrate", package: "PingOrchestrate")], path: "Oidc", exclude: ["Oidc.h"], resources: [.copy("PrivacyInfo.xcprivacy")])
     ]
 )
