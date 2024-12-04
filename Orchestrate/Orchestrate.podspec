@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PingOrchestrate'
-  s.version          = '0.9.0-beta2'
+  s.name             = 'SpetrovOrchestrate'
+  s.version          = '2.1.0-beta1'
   s.summary          = 'Orchestrate SDK for iOS'
   s.description      = <<-DESC
   The Orchestrate SDK provides a simple way to build a state machine for ForgeRock Journey and PingOne DaVinci.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author           = 'Ping Identity'
 
   s.source           = {
-      :git => 'https://github.com/ForgeRock/ping-ios-sdk.git',
+      :git => 'https://github.com/spetrov/ping-orchestrate-spetrov.git',
       :tag => s.version.to_s
   }
 
@@ -33,6 +33,6 @@ Pod::Spec.new do |s|
     'Orchestrate' => [base_dir + '/*.xcprivacy']
   }
   
-  s.ios.dependency 'PingLogger', '~> 0.9.0-beta2'
-  s.ios.dependency 'PingStorage', '~> 0.9.0-beta2'
+  s.ios.dependency 'PingLogger', '~> 1.9.0-beta1'
+  s.ios.dependency 'PingStorage', '~> 2.0.0-beta1'
 end

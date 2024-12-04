@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PingStorage'
-  s.version          = '0.9.0-beta2'
+  s.name             = 'SpetrovStorage'
+  s.version          = '2.0.0-beta1'
   s.summary          = 'Storage SDK for iOS'
   s.description      = <<-DESC
   The Storage SDK provides a flexible storage interface and a set of common storage solutions for the Ping SDKs.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author           = 'Ping Identity'
 
   s.source           = {
-      :git => 'https://github.com/ForgeRock/ping-ios-sdk.git',
+      :git => 'https://github.com/spetrov/ping-storage-spetrov.git',
       :tag => s.version.to_s
   }
 
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  base_dir = "Storage/Storage"
+  base_dir = "Storage"
   s.source_files = base_dir + '/**/*.swift', base_dir + '/**/*.c', base_dir + '/**/*.h'
   s.resource_bundles = {
     'Storage' => [base_dir + '/*.xcprivacy']
