@@ -10,8 +10,9 @@ let package = Package (
         .library(name: "PingOidcSpetrov", targets: ["PingOidc"])
     ],
     dependencies: [
+        .package(name: "PingLoggerSpetrov", url: "git@github.com:spetrov/ping-logger-spetrov.git", .upToNextMinor(from: "1.0.0")),
     ],
     targets: [
-        .target(name: "PingOidcSpetrov", dependencies: [.target(name: "PingOrchestrateSpetrov")], path: "Oidc/Oidc", exclude: ["Oidc.h"], resources: [.copy("PrivacyInfo.xcprivacy")])
+        .target(name: "PingOidc", dependencies: [.product(name: "PingLoggerSpetrov", package: "PingLoggerSpetrov")], path: "Oidc/Oidc", exclude: ["Oidc.h"], resources: [.copy("PrivacyInfo.xcprivacy")])
     ]
 )
