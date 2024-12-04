@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PingLogger'
-  s.version          = '0.9.0-beta2'
+  s.name             = 'SpetrovLogger'
+  s.version          = '1.9.0-beta1'
   s.summary          = 'Logger SDK for iOS'
   s.description      = <<-DESC
   The Logger SDK provides a versatile logging interface and a set of common loggers for the Ping SDKs.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author           = 'Ping Identity'
 
   s.source           = {
-      :git => 'https://github.com/ForgeRock/ping-ios-sdk.git',
+      :git => 'https://github.com/spetrov/ping-logger-spetrov.git',
       :tag => s.version.to_s
   }
 
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  base_dir = "Logger/Logger"
+  base_dir = "Logger"
   s.source_files = base_dir + '/**/*.swift', base_dir + '/**/*.h'
   s.resource_bundles = {
     'Logger' => [base_dir + '/*.xcprivacy']
