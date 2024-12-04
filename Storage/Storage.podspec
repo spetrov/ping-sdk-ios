@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SpetrovStorage'
+  s.name             = 'PingStorage'
   s.version          = '2.0.0-beta1'
   s.summary          = 'Storage SDK for iOS'
   s.description      = <<-DESC

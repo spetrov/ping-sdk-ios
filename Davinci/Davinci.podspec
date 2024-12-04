@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SpetrovDavinci'
+  s.name             = 'PingDavinci'
   s.version          = '3.2.0-beta4'
   s.summary          = 'Davinci SDK for iOS'
   s.description      = <<-DESC

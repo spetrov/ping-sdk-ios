@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SpetrovLogger'
+  s.name             = 'PingLogger'
   s.version          = '1.9.0-beta1'
   s.summary          = 'Logger SDK for iOS'
   s.description      = <<-DESC
