@@ -12,6 +12,6 @@ let package = Package (
         .package(name: "PingOidc", url: "https://github.com/spetrov/ping-oidc-spetrov", .upToNextMinor(from: "2.0.4")),
     ],
     targets: [
-        .target(name: "PingDavinci", dependencies: [.target(name: "PingOidc", package: "PingOidc")], path: "Davinci", exclude: ["Davinci.h"], resources: [.copy("PrivacyInfo.xcprivacy")])
+        .target(name: "PingDavinci", dependencies: [.product(name: "PingOidc", package: "PingOidc")], path: "Davinci", exclude: ["Davinci.h"], resources: [.copy("PrivacyInfo.xcprivacy")])
     ]
 )
