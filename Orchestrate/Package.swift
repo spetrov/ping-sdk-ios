@@ -14,6 +14,6 @@ let package = Package (
         .package(name: "PingStorage", url: "git@github.com:spetrov/ping-storage-spetrov.git", .upToNextMinor(from: "1.0.0"))
     ],
     targets: [
-        .target(name: "PingOrchestrate", dependencies: [.target(name: "PingLogger"), .target(name: "PingStorage")], path: "Orchestrate", exclude: ["Orchestrate.h"], resources: [.copy("PrivacyInfo.xcprivacy")])
+        .target(name: "PingOrchestrate", dependencies: [.product(name: "PingLogger", package: "PingLogger"), .product(name: "PingStorage", package: "PingStorage")], path: "Orchestrate", exclude: ["Orchestrate.h"], resources: [.copy("PrivacyInfo.xcprivacy")])
     ]
 )
