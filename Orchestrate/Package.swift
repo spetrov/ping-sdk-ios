@@ -10,8 +10,8 @@ let package = Package (
         .library(name: "PingOrchestrate", targets: ["PingOrchestrate"])
     ],
     dependencies: [
-        .package(name: "PingLogger", url: "git@github.com:spetrov/ping-logger-spetrov.git", .upToNextMinor(from: "1.0.0")),
-        .package(name: "PingStorage", url: "git@github.com:spetrov/ping-storage-spetrov.git", .upToNextMinor(from: "1.0.0"))
+        .package(name: "PingLogger", url: "git@github.com:spetrov/ping-logger-spetrov.git", .upToNextMinor(from: "2.0.0")),
+        .package(name: "PingStorage", url: "git@github.com:spetrov/ping-storage-spetrov.git", .upToNextMinor(from: "2.0.0"))
     ],
     targets: [
         .target(name: "PingOrchestrate", dependencies: [.product(name: "PingLogger", package: "PingLogger"), .product(name: "PingStorage", package: "PingStorage")], path: "Orchestrate", exclude: ["Orchestrate.h"], resources: [.copy("PrivacyInfo.xcprivacy")])
