@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SpetrovOrchestrate'
+  s.name             = 'PingOrchestrate'
   s.version          = '2.1.0-beta1'
   s.summary          = 'Orchestrate SDK for iOS'
   s.description      = <<-DESC
