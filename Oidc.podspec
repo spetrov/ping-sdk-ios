@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SpetrovOidc'
+  s.name             = 'PingOidc'
   s.version          = '2.9.0-beta2'
   s.summary          = 'Oidc SDK for iOS'
   s.description      = <<-DESC
