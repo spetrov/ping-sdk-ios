@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PingDavinci'
+  s.name             = 'SpetroDavinci'
   s.version          = '3.2.0-beta4'
   s.summary          = 'Davinci SDK for iOS'
   s.description      = <<-DESC
@@ -23,17 +23,17 @@ occur during the authentication process.
       :tag => s.version.to_s
   }
 
-  s.module_name   = 'PingDavinci'
+  s.module_name   = 'SpetrovDavinci'
   s.swift_versions = ['5.0', '5.1']
 
   s.ios.deployment_target = '13.0'
 
-  base_dir = "Davinci/Davinci"
+  base_dir = "Davinci"
   s.source_files = base_dir + '/**/*.swift', base_dir + '/**/*.c', base_dir + '/**/*.h'
   s.resource_bundles = {
     'Davinci' => [base_dir + '/*.xcprivacy']
   }
   
-  s.ios.dependency 'PingOidc', '~> 2.9.0-beta2'
+  s.ios.dependency 'SpetrovOidc', '~> 2.9.0-beta2'
     
 end
