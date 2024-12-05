@@ -10,9 +10,9 @@
 
 
 import Foundation
-import SpetrovOrchestrate
-import SpetrovLogger
-import SpetrovStorage
+import PingOrchestrate
+import PingLogger
+import PingStorage
 
 public class OidcClientConfig {
     public var openId: OpenIdConfiguration?

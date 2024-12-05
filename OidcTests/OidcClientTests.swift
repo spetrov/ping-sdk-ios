@@ -10,9 +10,9 @@
 
 
 import XCTest
-@testable import SpetrovOidc
-@testable import SpetrovOrchestrate
-@testable import SpetrovStorage
+@testable import PingOidc
+@testable import PingOrchestrate
+@testable import PingStorage
 
 final class OidcClientTests: XCTestCase {
     var oidcClientConfig: OidcClientConfig!
