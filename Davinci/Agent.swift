@@ -10,8 +10,8 @@
 
 
 import Foundation
-import PingOidc
-import PingOrchestrate
+import SpetrovOidc
+import SpetrovOrchestrate
 
 internal class CreateAgent: Agent {
     typealias T = Void

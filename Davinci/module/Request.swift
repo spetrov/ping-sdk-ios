@@ -10,8 +10,8 @@
 
 
 import Foundation
-import PingOidc
-import PingOrchestrate
+import SpetrovOidc
+import SpetrovOrchestrate
 
 extension OidcClientConfig {
     internal func populateRequest(

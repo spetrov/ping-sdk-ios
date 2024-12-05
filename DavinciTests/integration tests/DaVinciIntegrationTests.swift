@@ -9,11 +9,11 @@
 //
 
 import XCTest
-@testable import PingOrchestrate
+@testable import SpetrovOrchestrate
 @testable import SpetrovLogger
-@testable import PingOidc
+@testable import SpetrovOidc
 @testable import SpetrovStorage
-@testable import PingDavinci
+@testable import SpetrovDavinci
 
 class DaVinciIntegrationTests: XCTestCase {
     private var daVinci: DaVinci!
