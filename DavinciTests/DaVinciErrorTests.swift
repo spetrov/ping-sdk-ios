@@ -12,8 +12,8 @@
 import Foundation
 import XCTest
 @testable import PingOrchestrate
-@testable import PingStorage
-@testable import PingLogger
+@testable import SpetrovStorage
+@testable import SpetrovLogger
 @testable import PingOidc
 @testable import PingDavinci
 

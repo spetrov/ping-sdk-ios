@@ -10,9 +10,9 @@
 
 import XCTest
 @testable import PingOrchestrate
-@testable import PingLogger
+@testable import SpetrovLogger
 @testable import PingOidc
-@testable import PingStorage
+@testable import SpetrovStorage
 @testable import PingDavinci
 
 class DaVinciIntegrationTests: XCTestCase {
