@@ -11,7 +11,7 @@
 
 import Foundation
 import SpetrovLogger
-import PingOrchestrate
+import SpetrovOrchestrate
 
 /// Class representing an OpenID Connect client.
 public class OidcClient {
