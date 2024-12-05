@@ -10,7 +10,7 @@
 
 
 import XCTest
-@testable import SpetrovOrchestrate
+@testable import PingOrchestrate
 
 final class ResponseTests: XCTestCase {
     
