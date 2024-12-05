@@ -11,8 +11,8 @@
 
 import Foundation
 import PingOrchestrate
-import PingLogger
-import PingStorage
+import SpetrovLogger
+import SpetrovStorage
 
 public class OidcClientConfig {
     public var openId: OpenIdConfiguration?
