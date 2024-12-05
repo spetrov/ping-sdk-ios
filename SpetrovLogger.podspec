@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PingLogger'
+  s.name             = 'SpetrovLogger'
   s.version          = '1.9.0-beta1'
   s.summary          = 'Logger SDK for iOS'
   s.description      = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
       :tag => s.version.to_s
   }
 
-  s.module_name   = 'PingLogger'
+  s.module_name   = 'SpetrovLogger'
   s.swift_versions = ['5.0', '5.1']
 
   s.ios.deployment_target = '13.0'
