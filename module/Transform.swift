@@ -10,8 +10,8 @@
 
 
 import Foundation
-import PingOidc
-import PingOrchestrate
+import SpetrovOidc
+import SpetrovOrchestrate
 
 /// Module for transforming the response from DaVinci to `Node`.
 public class NodeTransformModule {
