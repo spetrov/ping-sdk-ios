@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PingStorage'
+  s.name             = 'SpetrovStorage'
   s.version          = '2.0.0-beta1'
   s.summary          = 'Storage SDK for iOS'
   s.description      = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
       :tag => s.version.to_s
   }
 
-  s.module_name   = 'PingStorage'
+  s.module_name   = 'SpetrovStorage'
   s.swift_versions = ['5.0', '5.1']
 
   s.ios.deployment_target = '13.0'
