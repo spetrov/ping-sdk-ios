@@ -31,4 +31,13 @@ final class PkceTests: XCTestCase {
         XCTAssertTrue(pkce1.codeVerifier != pkce2.codeVerifier, "Code verifier should be different")
         XCTAssertTrue(pkce1.codeChallenge != pkce2.codeChallenge, "Code challenge should be different")
     }
+    
+    // TestRailCase(22110)
+    func testGenerateDifferentPkcea() {
+        let pkce1 = Pkce.generate()
+        let pkce2 = Pkce.generate()
+        
+        XCTAssertTrue(pkce1.codeVerifier != pkce2.codeVerifier, "Code verifier should be different")
+        XCTAssertTrue(pkce1.codeChallenge != pkce2.codeChallenge, "Code challenge should be different")
+    }
 }

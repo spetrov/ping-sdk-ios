@@ -44,6 +44,14 @@ final class MemoryStorageTests: XCTestCase {
         XCTAssertEqual(retrievedItem, item)
     }
     
+    // TestRailCase(21623)
+    func testGetItemaa() async throws {
+        let item = TestItem(id: 1, name: "Test")
+        try await memoryStorage.save(item: item)
+        let retrievedItem = try await memoryStorage.get()
+        XCTAssertEqual(retrievedItem, item)
+    }
+    
     // TestRailCase(21626)
     func testDeleteItem() async throws {
         let item = TestItem(id: 1, name: "Test")
