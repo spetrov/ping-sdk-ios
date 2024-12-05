@@ -11,9 +11,9 @@
 import Foundation
 import SwiftUI
 import Observation
-import PingDavinci
-import PingOidc
-import PingOrchestrate
+import SpetrovDavinci
+import SpetrovOidc
+import SpetrovOrchestrate
 
 class LoginViewModel: ObservableObject {
     

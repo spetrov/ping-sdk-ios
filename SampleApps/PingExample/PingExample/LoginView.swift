@@ -10,8 +10,8 @@
 
 import Foundation
 import SwiftUI
-import PingOrchestrate
-import PingDavinci
+import SpetrovOrchestrate
+import SpetrovDavinci
 
 struct DavinciView: View {
   

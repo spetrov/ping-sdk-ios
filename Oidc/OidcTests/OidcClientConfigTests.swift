@@ -10,8 +10,8 @@
 
 
 import XCTest
-@testable import PingOidc
-@testable import PingOrchestrate
+@testable import SpetrovOidc
+@testable import SpetrovOrchestrate
 @testable import SpetrovLogger
 @testable import SpetrovStorage
 

@@ -11,11 +11,11 @@
 
 import Foundation
 import XCTest
-@testable import PingOrchestrate
+@testable import SpetrovOrchestrate
 @testable import SpetrovStorage
 @testable import SpetrovLogger
-@testable import PingOidc
-@testable import PingDavinci
+@testable import SpetrovOidc
+@testable import SpetrovDavinci
 
 class DaVinciErrorTests: XCTestCase {
   

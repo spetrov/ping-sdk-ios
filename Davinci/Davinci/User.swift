@@ -9,8 +9,8 @@
 //
 
 
-import PingOidc
-import PingOrchestrate
+import SpetrovOidc
+import SpetrovOrchestrate
 
 extension DaVinci {
     /// Retrieve the user.
