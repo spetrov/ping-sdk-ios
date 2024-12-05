@@ -10,8 +10,8 @@
 
 
 import Foundation
-import SpetrovLogger
-import SpetrovOrchestrate
+import PingLogger
+import PingOrchestrate
 
 /// Class representing an OpenID Connect client.
 public class OidcClient {
