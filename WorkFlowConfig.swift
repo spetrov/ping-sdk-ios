@@ -10,7 +10,7 @@
 
 
 import Foundation
-import SpetrovLogger
+import PingLogger
 
 /// Enum representing the mode of module override.
 public enum OverrideMode {

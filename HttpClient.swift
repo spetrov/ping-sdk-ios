@@ -10,7 +10,7 @@
 
 
 import Foundation
-import SpetrovLogger
+import PingLogger
 
 /// `HttpClient` is responsible for handling HTTP requests and logging the details of those requests and responses.
 public class HttpClient {
