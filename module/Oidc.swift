@@ -10,8 +10,8 @@
 
 
 import Foundation
-import SpetrovOidc
-import SpetrovOrchestrate
+import PingOidc
+import PingOrchestrate
 
 public class OidcModule {
     
