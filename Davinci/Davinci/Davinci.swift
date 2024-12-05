@@ -10,8 +10,8 @@
 
 
 import Foundation
-import SpetrovOrchestrate
-import SpetrovOidc
+import PingOrchestrate
+import PingOidc
 
 public typealias DaVinci = Workflow
 public typealias DaVinciConfig = WorkflowConfig

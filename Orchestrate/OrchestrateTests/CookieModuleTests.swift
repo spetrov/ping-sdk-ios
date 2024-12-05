@@ -11,8 +11,8 @@
 
 import Foundation
 import XCTest
-@testable import SpetrovStorage
-@testable import SpetrovOrchestrate
+@testable import PingStorage
+@testable import PingOrchestrate
 
 final class CookieModuleTests: XCTestCase {
     

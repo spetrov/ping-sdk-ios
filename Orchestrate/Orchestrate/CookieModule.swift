@@ -10,7 +10,7 @@
 
 
 import Foundation
-import SpetrovStorage
+import PingStorage
 
 public class CookieModule {
     

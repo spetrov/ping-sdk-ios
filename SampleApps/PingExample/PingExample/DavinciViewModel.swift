@@ -9,9 +9,9 @@
 //
 
 import Foundation
-import SpetrovDavinci
-import SpetrovOidc
-import SpetrovOrchestrate
+import PingDavinci
+import PingOidc
+import PingOrchestrate
 import PingLogger
 import PingStorage
 

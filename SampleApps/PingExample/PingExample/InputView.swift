@@ -9,7 +9,7 @@
 //
 
 import SwiftUI
-import SpetrovDavinci
+import PingDavinci
 
 struct InputView: View {
     @State var text: String = ""

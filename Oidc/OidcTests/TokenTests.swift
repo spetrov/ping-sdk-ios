@@ -10,7 +10,7 @@
 
 
 import XCTest
-@testable import SpetrovOidc
+@testable import PingOidc
 
 final class TokenTests: XCTestCase {
     

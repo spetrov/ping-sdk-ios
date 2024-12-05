@@ -10,7 +10,7 @@
 
 
 import XCTest
-@testable import SpetrovOrchestrate
+@testable import PingOrchestrate
 
 class CustomHeaderConfig {
     var enable = true

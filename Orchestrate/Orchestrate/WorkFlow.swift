@@ -10,7 +10,7 @@
 
 
 import Foundation
-import SpetrovLogger
+import PingLogger
 
 /// Class representing the context of a flow.
 /// - property flowContext: The shared context of the flow.

@@ -11,7 +11,7 @@
 
 import Foundation
 import XCTest
-@testable import SpetrovDavinci
+@testable import PingDavinci
 
 class CollectorRegistryTests: XCTestCase {
     
