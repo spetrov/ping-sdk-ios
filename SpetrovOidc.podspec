@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PingOidc'
+  s.name             = 'SpetrovOidc'
   s.version          = '2.9.0-beta2'
   s.summary          = 'Oidc SDK for iOS'
   s.description      = <<-DESC
@@ -22,16 +22,16 @@ Pod::Spec.new do |s|
       :tag => s.version.to_s
   }
 
-  s.module_name   = 'PingOidc'
+  s.module_name   = 'SpetrovOidc'
   s.swift_versions = ['5.0', '5.1']
 
   s.ios.deployment_target = '13.0'
 
-  base_dir = "Oidc/Oidc"
+  base_dir = "Oidc"
   s.source_files = base_dir + '/**/*.swift', base_dir + '/**/*.h'
   s.resource_bundles = {
     'Oidc' => [base_dir + '/*.xcprivacy']
   }
   
-  s.ios.dependency 'PingOrchestrate', '~> 2.1.0-beta1'
+  s.ios.dependency 'SpetrovOrchestrate', '~> 2.1.0-beta1'
 end
