@@ -4,7 +4,7 @@
   </picture>
 </div>
 
-# PingLogger SDK Updated for a new version gaga
+# PingLogger SDK Updated for a new version update logger
 
 The PingLogger SDK provides a versatile logging interface and a set of common loggers for the Ping
 SDKs.
