@@ -9,7 +9,7 @@ let package = Package (
         .library(name: "PingDavinci", targets: ["PingDavinci"])
     ],
     dependencies: [
-        .package(name: "PingOidc", url: "https://github.com/spetrov/ping-oidc-spetrov", .upToNextMinor(from: "2.0.4")),
+        .package(name: "PingOidc", url: "https://github.com/spetrov/ping-oidc-spetrov", .upToNextMajor(from: "2.0.4")),
     ],
     targets: [
         .target(name: "PingDavinci", dependencies: [.product(name: "PingOidc", package: "PingOidc")], path: "Davinci", exclude: ["Davinci.h"], resources: [.copy("PrivacyInfo.xcprivacy")])
