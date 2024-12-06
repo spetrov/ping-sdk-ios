@@ -8,7 +8,7 @@
 Another change
 One more change
 
-The PingLogger SDK provides a versatile logging interface and a set of common loggers for the Ping
+The PingLogger SDK provides a versatile logging interface and a set of common loggers for the Ping gaga
 SDKs.
 
 ## Integrating the SDK into your project
